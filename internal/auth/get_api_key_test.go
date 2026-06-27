@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-// func TestGetAPIKey(t *testing.T) {
+func TestGetAPIKey(t *testing.T) {
 	t.Run("returns error when no authorization header", func(t *testing.T) {
 		headers := http.Header{}
 
